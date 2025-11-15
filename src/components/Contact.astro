@@ -1,0 +1,100 @@
+---
+// Contact Section - Conecta con nosotros
+---
+
+<section id="contacto" class="py-20 bg-black text-white">
+  <div class="container mx-auto px-4">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      
+      <!-- Redes Sociales -->
+      <div>
+        <h3 class="text-3xl font-black mb-8">SIGUE LA CORRIENTE</h3>
+        
+        <div class="space-y-6">
+          <a href="https://instagram.com/sinrodeosec" class="flex items-center space-x-4 group">
+            <div class="w-12 h-12 bg-ecuador-gold flex items-center justify-center">
+              <span class="text-black font-bold text-xl">IG</span>
+            </div>
+            <div>
+              <p class="font-bold text-lg">@SinRodeosEC</p>
+              <p class="text-gray-400">Tras bambalinas y resultados</p>
+            </div>
+          </a>
+          
+          <a href="https://youtube.com/@sinrodeosec" class="flex items-center space-x-4 group">
+            <div class="w-12 h-12 bg-ecuador-red flex items-center justify-center">
+              <span class="text-white font-bold text-xl">YT</span>
+            </div>
+            <div>
+              <p class="font-bold text-lg">Sin Rodeos EC</p>
+              <p class="text-gray-400">Procesos completos sin cortes</p>
+            </div>
+          </a>
+          
+          <a href="https://tiktok.com/@sinrodeosec" class="flex items-center space-x-4 group">
+            <div class="w-12 h-12 bg-white flex items-center justify-center">
+              <span class="text-black font-bold text-xl">TK</span>
+            </div>
+            <div>
+              <p class="font-bold text-lg">@SinRodeosEC</p>
+              <p class="text-gray-400">Impacto en 60 segundos</p>
+            </div>
+          </a>
+        </div>
+        
+        <p class="mt-8 text-gray-400 italic">Donde mostramos el proceso sin filtros.</p>
+      </div>
+      
+      <!-- Formulario de Contacto -->
+      <div>
+        <h3 class="text-3xl font-black mb-8">HABLEMOS SIN RODEOS</h3>
+        
+        <form class="space-y-6" netlify>
+          <div>
+            <input 
+              type="text" 
+              name="nombre" 
+              placeholder="Tu nombre" 
+              required
+              class="w-full bg-gray-900 border-none px-4 py-3 text-white placeholder-gray-500 focus:ring-2 focus:ring-ecuador-gold"
+            >
+          </div>
+          
+          <div>
+            <input 
+              type="email" 
+              name="email" 
+              placeholder="Tu correo electrónico" 
+              required
+              class="w-full bg-gray-900 border-none px-4 py-3 text-white placeholder-gray-500 focus:ring-2 focus:ring-ecuador-gold"
+            >
+          </div>
+          
+          <div>
+            <textarea 
+              name="mensaje" 
+              rows="4" 
+              placeholder="¿Qué necesitas? Sé directo." 
+              required
+              class="w-full bg-gray-900 border-none px-4 py-3 text-white placeholder-gray-500 focus:ring-2 focus:ring-ecuador-gold"
+            ></textarea>
+          </div>
+          
+          <button 
+            type="submit"
+            class="bg-ecuador-gold text-black px-8 py-4 font-bold hover:bg-yellow-600 transition-colors w-full"
+          >
+            ENVIAR MENSAJE
+          </button>
+        </form>
+        
+        <p class="mt-6 text-gray-400">
+          O escríbenos directamente:<br>
+          <a href="mailto:info@sinrodeos.ec" class="text-ecuador-gold hover:underline">
+            info@sinrodeos.ec
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
